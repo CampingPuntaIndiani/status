@@ -54,7 +54,7 @@ def main():
         'https://github.com/MartinBrugnara/status'))
     gen.append('')
 
-    with open('./status.txt', 'w+') as out_f:
+    with open('./html/index.txt', 'w+') as out_f:
         out_f.write('\n\r'.join(gen))
 
 if __name__ == '__main__':
