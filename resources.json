@@ -1,0 +1,30 @@
+{
+    "Acess Point": [
+        {"name": "home", "ip": "172.16.0.21"},
+        {"name": "office", "ip": "172.16.0.22"},
+        {"name": "stake", "ip": "172.16.0.23"},
+        {"name": "hill", "ip": "172.16.0.24"},
+        {"name": "tunnel", "ip": "172.16.0.25"},
+        {"name": "bathrooms", "ip": "172.16.0.26"}
+    ],
+    "Network": [
+        {"name": "switch 1", "ip": "10.0.0.253"},
+        {"name": "switch 2", "ip": "10.0.0.252"},
+        {"name": "modem", "ip": "192.168.0.1"},
+        {"name": "router eth0", "ip": "192.168.0.2"},
+        {"name": "router eth1", "ip": "10.0.0.1"},
+        {"name": "router eth2", "ip": "172.16.0.1"}
+    ],
+    "Servers": [
+        {"name": "colossus", "ip": "10.0.0.254"},
+        {"name": "atlantis", "ip": "10.0.0.251"}
+    ],
+    "VM": [
+        {"name": "websrv", "ip": "10.0.0.2"},
+        {"name": "database", "ip": "10.0.0.3"},
+        {"name": "printsrv", "ip": "10.0.0.248"}
+    ],
+    "ohter": [
+        {"name": "cam rec", "ip": "10.0.0.247"}
+    ]
+}
