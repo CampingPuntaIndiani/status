@@ -26,6 +26,8 @@ def check(ip):
     return True, '{:0.4f}ms'.format((delay * 1000 / success_ping))
 
 def main():
+    bt = datetime.datetime.utcnow()
+    print("start @ {}".format(bt))
     res = {}
     with open('./resources.json') as res_f:
         res = json.load(res_f)
@@ -45,6 +47,7 @@ def main():
                 res)) 
 
     end_time = datetime.datetime.utcnow()
+    print("end @ {}".format(end_time))
 
     gen.append('')
     gen.append('Start  time {:>72}'.format(str(start_time)))
@@ -56,6 +59,7 @@ def main():
 
     with open('./html/index.txt', 'w+') as out_f:
         out_f.write('\n\r'.join(gen))
+    print("Page generated @ {}".format(datetime.datetime.utcnow()))
 
 if __name__ == '__main__':
     main()
